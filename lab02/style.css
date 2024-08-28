@@ -1,0 +1,58 @@
+
+
+h1{
+    color:rgb(255, 7, 7);
+    text-align: center;
+   
+    font-size: 60px;
+    font-family:'Times New Roman';
+}
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman';
+
+}
+
+h3{
+    font-family: 'Times New Roman';
+}
+
+h4{
+    
+    font-family: 'Times New Roman';
+    font-size:30px;
+    text-align: center;
+}
+
+h5{
+    font-family:'Times New Roman';
+    font-size:30px;
+    text-align: center;
+}
+
+.video-container{
+    text-align:center;
+}
+
+.audio-container{
+    text-align: center;
+}
+
+.svg-container{
+    text-align: center;
+    background-color:rgb(168, 216, 255)
+}
+
+.jpg-container{
+    text-align:center;
+}
+
+.text-container{
+    text-align:center;
+}
+
+.text2-container{
+    text-align:center;
+
+}
