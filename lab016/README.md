@@ -1,0 +1,1 @@
+Olá, no laboratório ocorrido no dia 4/9/2024, o professor Matias fez uma calculadora conosco, a qual é composta de três arquivos, o index.html, o script.js e styles.css.
