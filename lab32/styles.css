@@ -1,0 +1,87 @@
+body {
+    background-image: url('https://img.elo7.com.br/product/zoom/2448E1F/papel-de-parede-adesivo-mike-azauski-monstro-6318-papel-de-parede.jpg');
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+#question-container div {
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url('https://i.pinimg.com/originals/86/ef/cf/86efcfff3e8bff82769dc8bfa13a0880.jpg');
+    
+}
+
+label {
+    display: block; /* Faz cada resposta aparecer em uma nova linha */
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+#quiz-image {
+    max-width: 100%; /* Garante que a imagem não exceda a largura da página */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilos dos botões */
+button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Reduz o padding em telas menores */
+    }
+
+    h3 {
+        font-size: 1.2rem; /* Reduz o tamanho das perguntas */
+    }
+
+    button {
+        width: 100%; /* Faz os botões ocuparem 100% da largura em telas pequenas */
+        padding: 15px; /* Aumenta a área de toque */
+    }
+
+    label {
+        font-size: 1rem; /* Ajusta o tamanho do texto das respostas */
+    }
+}
+
+/* Media query para telas muito pequenas (celulares) */
+@media (max-width: 480px) {
+    h3 {
+        font-size: 1rem; /* Ainda menor em dispositivos muito pequenos */
+    }
+
+    label {
+        font-size: 0.9rem; /* Ajusta o tamanho das respostas */
+    }
+
+    button {
+        font-size: 1rem; /* Ajusta o tamanho do texto dos botões */
+        padding: 12px; /* Área de toque confortável */
+    }
+
+    #quiz-image {
+        max-width: 90%; /* Reduz ainda mais a imagem em telas muito pequenas */
+    }
+}
