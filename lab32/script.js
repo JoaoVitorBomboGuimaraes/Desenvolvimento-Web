@@ -103,3 +103,5 @@ function restartQuiz() {
 }
 
 window.onload = loadQuestions;
+
+//oi
